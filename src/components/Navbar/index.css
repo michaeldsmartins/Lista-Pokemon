@@ -1,0 +1,26 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #000000;
+  border-bottom: 2px solid #ddd;
+  position: relative;
+}
+
+.title {
+  color: rgb(243, 0, 0);
+  font-size: 30px;
+  text-align: center;
+  padding-left: 45%;
+  
+}
+
+.h5 {
+  flex-grow: 2;
+  text-decoration: none;
+  color: inherit; /* Remove a cor padrão do Link */
+}
+
+.h5:hover h5 {
+  color: #1abc9c; /* Altere a cor ao passar o mouse */
+}
